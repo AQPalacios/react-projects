@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #1a1519;
+}
+
+.div{
+    background-color: #942643;
+}
+
+.animation-login-form-in {
+    animation: animation-login-form-in .6s;
+}
+
+@keyframes animation-login-form-in {
+    from{
+        height: 246px;
+        opacity: .5;
+    }
+    to{
+        height: 480px;
+
+    }
+}
+
+@keyframes animation-login-form-out {
+    from{
+        height: 480px;
+
+    }
+    to{
+        height: 246px;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--red-dark);
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+    width: 1080px;
+    color: var(--light);
+}
+
+.header-title{
+    color: var(--light);
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
